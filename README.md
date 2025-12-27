@@ -4,7 +4,7 @@
 ## 📌 1. Project Overview
 This project provides a data-driven exploration of the relationship between financial markets and macroeconomic policy. By analyzing the **2000–2008 economic cycle**, the study identifies how central bank policies, consumer psychology, and national productivity intersect to drive market stability.
 
-* **Domain:** Finance & Econometrics
+* **Domain:** Finance
 * **Timeframe:** 2000 – 2008
 * **Focus:** Market Forecasting, Macro Influence, and Risk Quantification.
 
@@ -15,7 +15,7 @@ This project provides a data-driven exploration of the relationship between fina
 4.  **Develop** a risk dashboard to monitor economic stability zones.
 
 ## 📂 3. Dataset Overview
-The analysis is based on a comprehensive dataset containing over **2,000 records** of daily and annual financial metrics:
+The analysis is based on a comprehensive dataset containing  **3,000 records** of daily and annual financial metrics:
 * **Market Indices:** Daily Open/Close prices for S&P 500, Dow Jones, and NASDAQ.
 * **Economic Indicators:** Annual GDP Growth (%), Inflation Rate (%), and Nominal Interest Rates.
 * **Fiscal/Consumer Data:** Government Debt, Corporate Profits, Consumer Confidence Index (CCI), and Retail Sales volume.
@@ -25,7 +25,7 @@ The project was implemented using the **Python Data Science Stack**:
 * **Pandas & NumPy:** Data manipulation, annual resampling, and grouped feature engineering.
 * **Matplotlib & Seaborn:** Generation of 13 core visuals and regression plots.
 * **Scipy/Statsmodels:** Polynomial regression for modeling volatility sensitivity.
-* **Jupyter Notebooks:** Environment for Exploratory Data Analysis (EDA).
+* **Google Colab Notebooks:** Environment for Exploratory Data Analysis (EDA).
 
 ## ⚙️ 5. Methodology
 * **Standardization:** Converted all fiscal metrics to USD and normalized date-time indices.
